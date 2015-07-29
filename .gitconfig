@@ -1,0 +1,12 @@
+[user]
+	email = jeffrey@smallhd.com
+	name = Jeffrey
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	cm = commit
+[core]
+	autoclrf = input
+[credential]
+	helper = cache
