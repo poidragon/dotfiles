@@ -1,7 +1,10 @@
 
 "Highlighting
 highlight OverLength ctermbg=darkblue ctermfg=white guibg=#592929 
-match OverLength /\%81v.\+/
+highlight ExtraWhite ctermbg=darkred ctermfg=blue guibg=#ff0000
+
+autocmd BufWinEnter * match OverLength /\%81v.\+/
+autocmd BufWinEnter * match ExtraWhite /\S\zs\s\+$/
 
 "Mapping
 map <C-j> 3j
@@ -16,9 +19,9 @@ set shiftwidth=4
 set cinoptions=l1:0
 
 "Folding
-set fdm=indent 
+set fdm=indent
 
 "Automatically save and open views to preserve folds
 autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview 
+autocmd BufWinEnter *.* silent loadview
 
