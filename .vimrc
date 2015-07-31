@@ -4,7 +4,7 @@ highlight OverLength ctermbg=grey guibg=#101010
 highlight ExtraWhite ctermbg=darkred ctermfg=blue guibg=#ff0000
 
 au BufWinEnter *.c,*.h,*.cpp,*.vhd let w:m1=matchadd('ExtraWhite', '\S\zs\s\+$', -1)
-au BufWinEnter *.c,*.h,*.cpp,*.vhd let w:m2=matchadd('OverLength', '\%81v.\+', -1)
+au BufWinEnter *.c,*.h,*.cpp let w:m2=matchadd('OverLength', '\%81v.\+', -1)
 
 "Mapping
 map <C-j> 3j
