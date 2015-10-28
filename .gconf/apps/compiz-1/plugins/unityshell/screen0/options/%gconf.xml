@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="launcher_capture_mouse" mtime="1426532539" type="bool" value="false"/>
+	<entry name="launcher_hide_mode" mtime="1421768037" type="int" value="0"/>
+	<entry name="num_launchers" mtime="1426537788" type="int" value="0"/>
+</gconf>

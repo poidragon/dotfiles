@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="picture_filename" mtime="1421767983" type="string">
+		<stringvalue>file:///home/smallhd/Firefox_wallpaper.png</stringvalue>
+	</entry>
+</gconf>
