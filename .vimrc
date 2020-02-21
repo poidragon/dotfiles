@@ -28,6 +28,10 @@ filetype plugin indent on    " required
 " set nocp
 " filetype plugin on
 
+" Basics
+syntax on
+set bs=2
+
 "Highlighting
 highlight OverLength ctermbg=green guibg=#101010 
 highlight ExtraWhite ctermbg=darkred ctermfg=blue guibg=#ff0000
