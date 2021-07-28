@@ -16,6 +16,9 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo - wow this looks cool so I'm keeping it
 Plugin 'tpope/vim-fugitive'
 
+" Allignment Plugin
+Plugin 'Align'
+
 " Auto Completion
 " Plugin 'Valloric/YouCompleteMe' - requires newer VIM
 
@@ -47,6 +50,7 @@ map <C-k> 5k
 set smartindent
 set tabstop=4
 set shiftwidth=4
+set expandtab!
 
 "C Syntax Options
 set cinoptions=l1:0
